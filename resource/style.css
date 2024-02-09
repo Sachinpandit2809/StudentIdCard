@@ -1,0 +1,153 @@
+
+    body{
+        height: 100vh;
+        width: 100vw;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .border{
+        height:80vh;
+        width:25vw;
+        border:5px solid #010d32;
+        border-radius: 10px;
+    }
+    .topyellow{
+        height: 3%;
+        background-color: yellow;
+        border-bottom:3px solid #010d32;
+    }
+    .top{
+        height:26%;
+        background-color: #fefefe;
+        display:flex;
+        flex-direction: column;
+
+    }
+   
+    
+    
+
+    .top span{
+        color :red;
+        font-weight: bolder;
+        position: relative;
+        bottom: 2%;
+        left:50%;
+        top:50%;
+    }
+    .pic{
+        display:flex;
+        justify-content: space-around;
+        background-color: #fff;
+    }
+    .top img{
+        height: 100%;
+        width: 22%;
+    }
+
+    .pic{
+        height:70%;
+    }
+    #logo{
+        position: relative;
+        right:10%
+    }
+    #photo{
+        position: relative;
+        left:6%;
+        top:40%;
+        border:5px solid rgb(205, 205, 205);
+    }
+
+    .mid{
+        height:30%;
+        background-color: #010d32;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        border-bottom: 2px solid #010d32;
+        
+    }
+    .mid span{
+        color:rgb(255, 255, 255);
+        margin : 0;
+        letter-spacing: 1.2px;
+        margin-left: 5%;
+    }
+    .mid span h6{
+        display: inline;
+    }
+    .sign{
+        
+        height: 13%;
+        color: white;
+        background-color: #010d32;
+        margin:0;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+    }
+    .signature{
+        height:40%;
+        width: 30%;
+        padding-bottom: 2%;
+        background-image: url("./signature.png");
+        background-size: cover;
+        margin-right: 7%;
+        border-bottom: 1px solid white;
+    }
+    .sign h6{
+        margin:2% 7% 5%;
+        
+    }
+    .foot{
+        height: 20%;
+        background-color: #faf9f9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content:  center;
+        align-items: center;
+        font-size: 0.6rem;
+        font-weight: 700;
+        line-height: 120%;
+    }
+    .foot span{
+        color:#010d32;
+        margin : 0;
+        letter-spacing: 1.2px;
+      
+    }
+    .foot span h6{
+        display: inline;
+    }
+    .footyellow{
+        height:7%;
+        background-color: yellow;
+        border-top: 2px solid #010d32;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        line-height: 100%;
+        font-weight:700 ;
+        font-size: 0.6rem;
+    }
+    .footyellow span{
+        color:#010d32;
+        margin : 0;
+        letter-spacing: 1.2px;
+    }
+
+@media (max-width:500px){
+    .border{
+        height:65vh;
+        width:90vw;
+        border:5px solid #010d32;
+        border-radius: 10px;
+    }
+}
